@@ -61,6 +61,7 @@
             this.pictureBoxMotorbike.Location = new System.Drawing.Point(39, 16);
             this.pictureBoxMotorbike.Name = "pictureBoxMotorbike";
             this.pictureBoxMotorbike.Size = new System.Drawing.Size(398, 198);
+            this.pictureBoxMotorbike.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxMotorbike.TabIndex = 1;
             this.pictureBoxMotorbike.TabStop = false;
             this.pictureBoxMotorbike.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -117,61 +118,55 @@
             // 
             // labelIDData
             // 
-            this.labelIDData.AutoSize = true;
             this.labelIDData.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelIDData.Location = new System.Drawing.Point(206, 235);
+            this.labelIDData.Location = new System.Drawing.Point(168, 235);
             this.labelIDData.Name = "labelIDData";
-            this.labelIDData.Size = new System.Drawing.Size(126, 26);
+            this.labelIDData.Size = new System.Drawing.Size(269, 26);
             this.labelIDData.TabIndex = 7;
             this.labelIDData.Text = "labelIDData";
             // 
             // labelModelData
             // 
-            this.labelModelData.AutoSize = true;
             this.labelModelData.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelModelData.Location = new System.Drawing.Point(206, 275);
+            this.labelModelData.Location = new System.Drawing.Point(169, 275);
             this.labelModelData.Name = "labelModelData";
-            this.labelModelData.Size = new System.Drawing.Size(163, 26);
+            this.labelModelData.Size = new System.Drawing.Size(268, 26);
             this.labelModelData.TabIndex = 8;
             this.labelModelData.Text = "labelModelData";
             // 
             // labelBrandData
             // 
-            this.labelBrandData.AutoSize = true;
             this.labelBrandData.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelBrandData.Location = new System.Drawing.Point(206, 313);
+            this.labelBrandData.Location = new System.Drawing.Point(169, 313);
             this.labelBrandData.Name = "labelBrandData";
-            this.labelBrandData.Size = new System.Drawing.Size(162, 26);
+            this.labelBrandData.Size = new System.Drawing.Size(268, 26);
             this.labelBrandData.TabIndex = 9;
             this.labelBrandData.Text = "labelBrandData";
             // 
             // labelPriceData
             // 
-            this.labelPriceData.AutoSize = true;
             this.labelPriceData.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelPriceData.Location = new System.Drawing.Point(206, 351);
+            this.labelPriceData.Location = new System.Drawing.Point(169, 351);
             this.labelPriceData.Name = "labelPriceData";
-            this.labelPriceData.Size = new System.Drawing.Size(154, 26);
+            this.labelPriceData.Size = new System.Drawing.Size(268, 26);
             this.labelPriceData.TabIndex = 10;
             this.labelPriceData.Text = "labelPriceData";
             // 
             // labelHoursepowerData
             // 
-            this.labelHoursepowerData.AutoSize = true;
             this.labelHoursepowerData.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelHoursepowerData.Location = new System.Drawing.Point(206, 388);
+            this.labelHoursepowerData.Location = new System.Drawing.Point(172, 388);
             this.labelHoursepowerData.Name = "labelHoursepowerData";
-            this.labelHoursepowerData.Size = new System.Drawing.Size(233, 26);
+            this.labelHoursepowerData.Size = new System.Drawing.Size(267, 26);
             this.labelHoursepowerData.TabIndex = 11;
             this.labelHoursepowerData.Text = "labelHoursepowerData";
             // 
             // labelMileageData
             // 
-            this.labelMileageData.AutoSize = true;
             this.labelMileageData.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelMileageData.Location = new System.Drawing.Point(206, 427);
+            this.labelMileageData.Location = new System.Drawing.Point(172, 427);
             this.labelMileageData.Name = "labelMileageData";
-            this.labelMileageData.Size = new System.Drawing.Size(180, 26);
+            this.labelMileageData.Size = new System.Drawing.Size(265, 26);
             this.labelMileageData.TabIndex = 12;
             this.labelMileageData.Text = "labelMileageData";
             // 

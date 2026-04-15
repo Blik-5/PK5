@@ -49,7 +49,7 @@
             // buttonRight
             // 
             this.buttonRight.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRight.Location = new System.Drawing.Point(1028, 198);
+            this.buttonRight.Location = new System.Drawing.Point(1085, 198);
             this.buttonRight.Name = "buttonRight";
             this.buttonRight.Size = new System.Drawing.Size(75, 202);
             this.buttonRight.TabIndex = 1;
@@ -59,23 +59,24 @@
             // 
             // userControlName1
             // 
-            this.userControlName1.Location = new System.Drawing.Point(104, 38);
+            this.userControlName1.Location = new System.Drawing.Point(106, 32);
             this.userControlName1.Name = "userControlName1";
-            this.userControlName1.Size = new System.Drawing.Size(459, 527);
+            this.userControlName1.Size = new System.Drawing.Size(459, 524);
             this.userControlName1.TabIndex = 2;
+            this.userControlName1.Load += new System.EventHandler(this.userControlName1_Load);
             // 
             // userControlName2
             // 
-            this.userControlName2.Location = new System.Drawing.Point(554, 38);
+            this.userControlName2.Location = new System.Drawing.Point(559, 32);
             this.userControlName2.Name = "userControlName2";
-            this.userControlName2.Size = new System.Drawing.Size(459, 527);
+            this.userControlName2.Size = new System.Drawing.Size(459, 524);
             this.userControlName2.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1126, 577);
+            this.ClientSize = new System.Drawing.Size(1172, 577);
             this.Controls.Add(this.userControlName2);
             this.Controls.Add(this.userControlName1);
             this.Controls.Add(this.buttonRight);
